@@ -3,3 +3,4 @@ Arduvario_1 è un strumento di volo basato su due schede Adafruit, Feather M0  B
 Le due schede comunicano tra loro tramite connessione i2c condivisa con il sensore MS5611. Il GPS è connesso tramite seriale. Le due schede si scambiano i dati per poi inviare le stringhe NMEA tramite serriale, Bluetooth e molto semplicemente si può implementare la trasmissione tramite WIFi del Adafruit Huzzah.
 Come per Arduvario ESP32 bisogna aggiungere le due stringhe char alla libreria Adafruit GPS per recuperare in modo semplice le stringhe NMEA del GPS
 La trasmissione Bluetooth della Feather M0 è di tipo LE
+https://rosolinoblog.wordpress.com/2017/01/16/arduvario-bluetooth-2/
